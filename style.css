@@ -31,6 +31,7 @@ header img {
   align-items: center;
   font-size: 20px;
   margin: 10px;
+  cursor: pointer;
 }
 
 .item-img {
@@ -42,4 +43,24 @@ header img {
 .item-nome {
   font-size: 25px;
   margin: 10px 0; /* Espaço acima e abaixo do nome do produto */
+}
+
+/* Ajustes de tamanho de tela */
+/* Telas grandes (desktop) */
+@media (min-width: 1024px) {
+  .produtos {
+    width: 40rem;
+  }
+}
+/* Telas médias (tablets) */
+@media (max-width: 1023px) and (min-width: 768px) {
+  .produtos {
+    width: 40rem;
+  }
+}
+/* Telas pequenas (smartphones) */
+@media (max-width: 767px) {
+  .produtos {
+    width: 25rem;
+  }
 }
