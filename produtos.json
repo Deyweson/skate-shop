@@ -1,0 +1,40 @@
+{
+  "shapes": [
+    {
+      "id": 1,
+      "img": "./prod-imgs/shapes/shape.png",
+      "nome": "Shape Exemplo",
+      "valor": "R$120,90"
+    },
+    {
+      "id": 2,
+      "img": "./prod-imgs/shapes/shape.png",
+      "nome": "Shape Exemplo",
+      "valor": "R$120,90"
+    },
+    {
+      "id": 1,
+      "img": "./prod-imgs/shapes/shape.png",
+      "nome": "Shape Exemplo",
+      "valor": "R$120,90"
+    },
+    {
+      "id": 2,
+      "img": "./prod-imgs/shapes/shape.png",
+      "nome": "Shape Exemplo",
+      "valor": "R$120,90"
+    },
+    {
+      "id": 1,
+      "img": "./prod-imgs/shapes/shape.png",
+      "nome": "Shape Exemplo",
+      "valor": "R$120,90"
+    },
+    {
+      "id": 2,
+      "img": "./prod-imgs/shapes/shape.png",
+      "nome": "Shape Exemplo",
+      "valor": "R$120,90"
+    }
+  ]
+}
