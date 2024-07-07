@@ -18,7 +18,7 @@ const exibirShapes = async () => {
     const div = document.createElement('div')
     div.classList.add('item')
     div.innerHTML += `<img src="${shape.img}" alt="" class="item-img">
-      <p class="${shape.nome}">nome</p>
+      <p class="item-nome">${shape.nome}</p>
       <p class="item-valor">${shape.valor}</p>`
 
     // TODO: Criar função de abrir modal com o produto
