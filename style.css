@@ -83,6 +83,10 @@ footer {
 }
 .contatos{
   list-style: none;
+  text-decoration: none;
+}
+.contatos li {
+  margin-top: 5px;
 }
 
 .contatos img {
