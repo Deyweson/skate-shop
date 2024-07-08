@@ -4,37 +4,55 @@
       "id": 1,
       "img": "./prod-imgs/shapes/shape.png",
       "nome": "Shape Exemplo",
-      "valor": "R$120,90"
+      "valor": "R$100,00"
     },
     {
       "id": 2,
+      "img": "./prod-imgs/shapes/shape.png",
+      "nome": "Shape Exemplo",
+      "valor": "R$100,00"
+    },
+    {
+      "id": 3,
+      "img": "./prod-imgs/shapes/shape.png",
+      "nome": "Truck Exemplo",
+      "valor": "R$100,00"
+    },
+    {
+      "id": 4,
+      "img": "./prod-imgs/shapes/truck.jpeg",
+      "nome": "Truck Exemplo",
+      "valor": "R$100,00"
+    },
+    {
+      "id": 5,
+      "img": "./prod-imgs/shapes/truck.jpeg",
+      "nome": "Truck Exemplo",
+      "valor": "R$100,00"
+    },
+    {
+      "id": 6,
       "img": "./prod-imgs/shapes/truck.jpeg",
       "nome": "Shape Exemplo",
-      "valor": "R$120,90"
+      "valor": "R$100,00"
     },
     {
-      "id": 1,
+      "id": 7,
       "img": "./prod-imgs/shapes/rodas.jpg",
-      "nome": "Shape Exemplo",
-      "valor": "R$120,90"
+      "nome": "Rodinhas Exemplo",
+      "valor": "R$100,00"
     },
     {
-      "id": 2,
-      "img": "./prod-imgs/shapes/shape.png",
-      "nome": "Shape Exemplo",
-      "valor": "R$120,90"
+      "id": 8,
+      "img": "./prod-imgs/shapes/rodas.jpg",
+      "nome": "Rodinhas Exemplo",
+      "valor": "R$100,00"
     },
     {
-      "id": 1,
-      "img": "./prod-imgs/shapes/shape.png",
-      "nome": "Shape Exemplo",
-      "valor": "R$120,90"
-    },
-    {
-      "id": 2,
-      "img": "./prod-imgs/shapes/shape.png",
-      "nome": "Shape Exemplo",
-      "valor": "R$120,90"
+      "id": 9,
+      "img": "./prod-imgs/shapes/rodas.jpg",
+      "nome": "Rodinhas Exemplo",
+      "valor": "R$100,00"
     }
   ]
 }
