@@ -8,13 +8,13 @@
     },
     {
       "id": 2,
-      "img": "./prod-imgs/shapes/shape.png",
+      "img": "./prod-imgs/shapes/truck.jpeg",
       "nome": "Shape Exemplo",
       "valor": "R$120,90"
     },
     {
       "id": 1,
-      "img": "./prod-imgs/shapes/shape.png",
+      "img": "./prod-imgs/shapes/rodas.jpg",
       "nome": "Shape Exemplo",
       "valor": "R$120,90"
     },

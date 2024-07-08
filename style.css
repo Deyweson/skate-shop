@@ -10,6 +10,15 @@ header img {
   margin: 20px;
 }
 
+hr{
+  width: 30%;
+  margin: 20px auto;
+}
+
+.titulo{
+  text-align: center;
+  margin-top: 40px;
+}
 
 /* Produto */
 .produtos {
@@ -21,7 +30,8 @@ header img {
 }
 
 .item {
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  box-shadow: 1px 1px 20px 0.5px rgba(0, 0, 0, 0.158);
   border-radius: 10px;
   width: 150px;
   height: 250px;
@@ -36,7 +46,7 @@ header img {
 
 .item-img {
   width: 100%;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.089);
   padding-bottom: 10px;
 }
 
