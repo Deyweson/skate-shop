@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/footer.css">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./prod.css">
   <link rel="stylesheet" href="./css/mediaqueries.css">
   <title>Toof Skate Shop</title>
 </head>
@@ -19,36 +19,28 @@
     <img src="./assets/logo-toof-white.png" alt="">
   </header>
 
-  <h1 class="titulo">Nossos Produtos</h1>
-  <hr>
-
-  <section class="produtos">
-
-    <div class="item">
-      <img src="./prod-imgs/shapes/shape.png" alt="" class="item-img">
-      <p class="item-nome">nome</p>
-      <p class="item-valor">R$120,00</p>
+  <section class="produto">
+    <div class="img-container">
+      <img src="./prod-imgs/shapes/shape.png" alt="" class="img-produto">
     </div>
-    <div class="item">
-      <img src="./prod-imgs/shapes/shape.png" alt="" class="item-img">
-      <p class="item-nome">nome</p>
-      <p class="item-valor">R$120,00</p>
+    <div class="prod-info">
+      <h1 class="nome-produto">Shape Japonês</h1>
+      <p class="descricao-produto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, quidem. Unde accusantium, illo, officiis
+        necessitatibus incidunt magnam cumque culpa perspiciatis veritatis assumenda debitis ea eos molestiae explicabo
+        iusto sint sequi.
+      </p>
+      <p class="valor-produto">R$120,00</p>
+      <p>Tamanhos:</p>
+      <ul class="tamanhos">
+        <li>8.5</li>
+        <li>9.0</li>
+        <li>9.25</li>
+      </ul>
     </div>
-    <div class="item">
-      <img src="./prod-imgs/shapes/shape.png" alt="" class="item-img">
-      <p class="item-nome">nome</p>
-      <p class="item-valor">R$120,00</p>
-    </div>
-    <div class="item">
-      <img src="./prod-imgs/shapes/shape.png" alt="" class="item-img">
-      <p class="item-nome">nome</p>
-      <p class="item-valor">R$120,00</p>
-    </div>
-
   </section>
 
   <footer>
-    <div class="contatos-container"> 
+    <div class="contatos-container">
       <ul class="contatos">
         <li> <img src="./assets/mail.png" alt="">toofemail@email.com</li>
         <li> <img src="./assets/phone-call.png" alt="">(24) 99999-9999</li>
@@ -66,7 +58,7 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-  <script src="./index.js"></script>
+  <script src="./produto.js"></script>
 
 </body>
 

@@ -1,0 +1,48 @@
+header img {
+  height: 100px;
+}
+
+.produto {
+  width: 50rem;
+  display: flex;
+  align-items: center;
+  margin: 50px auto;
+  border: 1px solid black;
+  
+}
+
+.img-container {
+  border: 1px solid red;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.prod-info {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.prod-info h1 {
+  padding: 15px 0px;
+}
+
+.prod-info p {
+  padding: 10px 0px;
+}
+
+.tamanhos {
+  display: flex;
+  list-style: none;
+}
+
+.tamanhos li {
+  padding:  5px 10px;
+  margin: 5px;
+  border: 1px solid none;
+  border-radius: 10px;
+  background-color: rgba(128, 128, 128, 0.521);
+}

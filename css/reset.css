@@ -6,3 +6,16 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
+body,
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.produtos, .produto {
+  flex: 1;
+}
