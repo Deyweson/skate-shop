@@ -4,6 +4,14 @@
   .produtos {
     width: 40rem;
   }
+
+  .prod-info {
+    width: 50%;
+  }
+
+  .img-container {
+    width: 50%;
+  }
 }
 
 /* Telas médias (tablets) */
@@ -11,6 +19,7 @@
   .produtos {
     width: 40rem;
   }
+
   .produto {
     flex-direction: column;
     width: 20rem;
@@ -34,19 +43,22 @@
   .item-valor {
     font-size: 12px;
   }
+
   footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
   }
-  .div2{
+
+  .div2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .contatos-container{
+
+  .contatos-container {
     margin-top: 30px;
   }
 

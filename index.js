@@ -9,21 +9,21 @@ const produtos = async () => {
 
 const exibirShapes = async () => {
   const fetch = await axios.get('./produtos.json')
-  const shapes = fetch.data.shapes
+  const produtos = fetch.data.produtos
 
   prodSecao.innerHTML = ''
 
-  for (const shape of shapes) {
+  for (const produto of produtos) {
 
     const div = document.createElement('div')
     div.classList.add('item')
-    div.innerHTML += `<img src="${shape.img}" alt="" class="item-img">
-      <p class="item-nome">${shape.nome}</p>
-      <p class="item-valor">${shape.valor}</p>`
+    div.innerHTML += `<img src="${produto.img}" alt="" class="item-img">
+      <p class="item-nome">${produto.nome}</p>
+      <p class="item-valor">${produto.valor}</p>`
 
     // TODO: Criar função de abrir modal com o produto
     div.addEventListener('click',() => {
-      console.log(shape.id)
+      window.location.href = `produto.html?prod=${produto.id}`;
     })
 
     prodSecao.appendChild(div)
