@@ -21,9 +21,9 @@ const exibirShapes = async () => {
       <p class="item-nome">${produto.nome}</p>
       <p class="item-valor">${produto.valor}</p>`
 
-    // TODO: Criar função de abrir modal com o produto
-    div.addEventListener('click',() => {
+    div.addEventListener('click', () => {
       window.location.href = `produto.html?prod=${produto.id}`;
+      saveScrollPosition()
     })
 
     prodSecao.appendChild(div)
@@ -32,3 +32,21 @@ const exibirShapes = async () => {
 
 
 exibirShapes()
+
+function saveScrollPosition() {
+  sessionStorage.setItem('scrollPosition', window.scrollY);
+  sessionStorage.setItem('fromProductPage', true);
+}
+
+function restoreScrollPosition() {
+  var fromProductPage = sessionStorage.getItem('fromProductPage');
+  if (fromProductPage) {
+      var scrollPosition = sessionStorage.getItem('scrollPosition');
+      if (scrollPosition !== null) {
+          window.scrollTo(0, parseInt(scrollPosition));
+      }
+      sessionStorage.removeItem('fromProductPage');
+  }
+}
+
+window.onload = restoreScrollPosition;

@@ -5,6 +5,7 @@ const valorProduto = document.querySelector('.valor-produto')
 const tamanhosProduto = document.querySelector('.tamanhos')
 const btnLeft = document.querySelector('.btn-left')
 const btnRight = document.querySelector('.btn-right')
+const whatsappBtn = document.querySelector('.whatsapp-btn')
 
 var queryString = window.location.search.substring(1);
 var queryArray = queryString.split("=");
@@ -34,7 +35,6 @@ const preencherProduto = async () => {
   let index = 0
   imgProduto.src = produto.galeria[index]
   const qtdImgs = produto.galeria.length
-  console.log(qtdImgs)
 
   btnRight.addEventListener('click', () => {
     if (index < qtdImgs - 1) {
@@ -42,7 +42,6 @@ const preencherProduto = async () => {
     } else {
       index = 0
     }
-    console.log(index<qtdImgs)
     imgProduto.src = produto.galeria[index]
   })
   btnLeft.addEventListener('click', () => {
@@ -51,11 +50,26 @@ const preencherProduto = async () => {
     } else {
       index = qtdImgs - 1
     }
-    console.log(index<qtdImgs, index, qtdImgs)
     imgProduto.src = produto.galeria[index]
   })
 
+  var agora = new Date()
+  var horas = agora.getHours()
+  var saudacao = ""
+  if (horas < 12) {
+    saudacao = "Bom dia"
+  } else if (horas < 18) {
+    saudacao = "Boa tarde"
+  } else {
+    saudacao = "Boa noite"
+  }
 
+
+  var numeroTelefone = '5524999711940'
+  var mensagem = `${saudacao}. Gostaria de saber se o(a) ${produto.nome} ainda está disponível?`
+  var mensagemEncoded = encodeURIComponent(mensagem)
+  var link = `https://wa.me/${numeroTelefone}?text=${mensagemEncoded}`
+  whatsappBtn.href = link
 }
 
 preencherProduto()
