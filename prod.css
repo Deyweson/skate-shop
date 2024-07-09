@@ -7,20 +7,31 @@ header img {
   display: flex;
   align-items: center;
   margin: 50px auto;
-  border: 1px solid black;
-  
 }
 
 .img-container {
-  border: 1px solid red;
-}
-
-.img-container img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
   width: 100%;
 }
 
+.img-container img {
+  width: 80%;
+}
+
+.btn-left,
+.btn-right {
+  all: unset;
+  cursor: pointer;
+}
+.btn-left img, .btn-right img {
+  width: 30px;
+  height: 30px;
+}
+
 .prod-info {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -37,10 +48,11 @@ header img {
 .tamanhos {
   display: flex;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 .tamanhos li {
-  padding:  5px 10px;
+  padding: 5px 10px;
   margin: 5px;
   border: 1px solid none;
   border-radius: 10px;
