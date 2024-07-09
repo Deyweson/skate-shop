@@ -2,8 +2,8 @@
   "produtos": [
     {
       "id": 1,
-      "img": "./prod-imgs/shapes/shape.png",
-      "nome": "Shape Exemplo",
+      "img": "./prod-imgs/shape.png",
+      "nome": "Shape Branco",
       "valor": "R$100,00",
       "desc": "Lorem ipsum dolor.",
       "tam": [
@@ -12,18 +12,15 @@
         "9.25"
       ],
       "galeria": [
-        "./prod-imgs/shapes/shape.png",
-        "./prod-imgs/shapes/truck.jpeg",
-        "./prod-imgs/shapes/rodas.jpg",
-        "./prod-imgs/shapes/shape.png",
-        "./prod-imgs/shapes/truck.jpeg",
-        "./prod-imgs/shapes/rodas.jpg"
+        "./prod-imgs/shape.png",
+        "./prod-imgs/shape2.jpg",
+        "./prod-imgs/shape3.jpg"
       ]
     },
     {
       "id": 2,
-      "img": "./prod-imgs/shapes/shape.png",
-      "nome": "Shape Exemplo",
+      "img": "./prod-imgs/shape2.jpg",
+      "nome": "Shape Dragão",
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modquidem. Unde accusantium, illo, officiis necessitatibus incidunt magnam cumque culpa perspiciatis veritatis assumenda debitis ea eos molestiae explicabo iusto sint sequi.",
       "valor": "R$100,00",
       "tam": [
@@ -32,14 +29,14 @@
         "9.25"
       ],
       "galeria": [
-        "./prod-imgs/shapes/shape.png",
-        "./prod-imgs/shapes/truck.jpeg",
-        "./prod-imgs/shapes/rodas.jpg"
+        "./prod-imgs/shape2.jpg",
+        "./prod-imgs/shape.png",
+        "./prod-imgs/shape3.jpg"
       ]
     },
     {
       "id": 3,
-      "img": "./prod-imgs/shapes/shape.png",
+      "img": "./prod-imgs/shape3.jpg",
       "nome": "Truck Exemplo",
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modquidem. Unde accusantium, illo, officiis necessitatibus incidunt magnam cumque culpa perspiciatis veritatis assumenda debitis ea eos molestiae explicabo iusto sint sequi.",
       "valor": "R$100,00",
@@ -49,111 +46,124 @@
         "9.25"
       ],
       "galeria": [
-        "./prod-imgs/shapes/shape.png",
-        "./prod-imgs/shapes/truck.jpeg",
-        "./prod-imgs/shapes/rodas.jpg"
+        "./prod-imgs/shape3.jpg",
+        "./prod-imgs/shape.png",
+        "./prod-imgs/shape2.jpg"
       ]
     },
     {
       "id": 4,
-      "img": "./prod-imgs/shapes/truck.jpeg",
-      "nome": "Truck Exemplo",
+      "img": "./prod-imgs/truck.jpeg",
+      "nome": "Truck Prata",
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modquidem. Unde accusantium, illo, officiis necessitatibus incidunt magnam cumque culpa perspiciatis veritatis assumenda debitis ea eos molestiae explicabo iusto sint sequi.",
       "valor": "R$100,00",
       "tam": [
-        "8.0",
-        "9.0",
-        "9.25"
+        "139mm",
+        "140mm",
+        "142mm"
       ],
       "galeria": [
-        "./prod-imgs/shapes/shape.png",
-        "./prod-imgs/shapes/truck.jpeg",
-        "./prod-imgs/shapes/rodas.jpg"
+        "./prod-imgs/truck.jpeg",
+        "./prod-imgs/truck2.jpg",
+        "./prod-imgs/truck3.png"
       ]
     },
     {
       "id": 5,
-      "img": "./prod-imgs/shapes/truck.jpeg",
-      "nome": "Truck Exemplo",
+      "img": "./prod-imgs/truck2.jpg",
+      "nome": "Truck Azul",
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modquidem. Unde accusantium, illo, officiis necessitatibus incidunt magnam cumque culpa perspiciatis veritatis assumenda debitis ea eos molestiae explicabo iusto sint sequi.",
       "valor": "R$100,00",
       "tam": [
-        "8.0",
-        "9.0",
-        "9.25"
+        "139mm",
+        "140mm",
+        "142mm"
       ],
       "galeria": [
-        "./prod-imgs/shapes/shape.png",
-        "./prod-imgs/shapes/truck.jpeg",
-        "./prod-imgs/shapes/rodas.jpg"
+        "./prod-imgs/truck2.jpg",
+        "./prod-imgs/truck.jpeg",
+        "./prod-imgs/truck3.png"
       ]
     },
     {
       "id": 6,
-      "img": "./prod-imgs/shapes/truck.jpeg",
-      "nome": "Shape Exemplo",
+      "img": "./prod-imgs/truck3.png",
+      "nome": "Truck Prateado",
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modquidem. Unde accusantium, illo, officiis necessitatibus incidunt magnam cumque culpa perspiciatis veritatis assumenda debitis ea eos molestiae explicabo iusto sint sequi.",
       "valor": "R$100,00",
       "tam": [
-        "8.0",
-        "9.0",
-        "9.25"
+        "139mm",
+        "140mm",
+        "142mm"
       ],
       "galeria": [
-        "./prod-imgs/shapes/shape.png",
-        "./prod-imgs/shapes/truck.jpeg",
-        "./prod-imgs/shapes/rodas.jpg"
+        "./prod-imgs/truck3.png",
+        "./prod-imgs/truck2.jpg",
+        "./prod-imgs/truck.jpeg"
       ]
     },
     {
       "id": 7,
-      "img": "./prod-imgs/shapes/rodas.jpg",
-      "nome": "Rodinhas Exemplo",
+      "img": "./prod-imgs/rodas.jpg",
+      "nome": "Rodinha Roxa",
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modquidem. Unde accusantium, illo, officiis necessitatibus incidunt magnam cumque culpa perspiciatis veritatis assumenda debitis ea eos molestiae explicabo iusto sint sequi.",
       "valor": "R$100,00",
       "tam": [
-        "8.0",
-        "9.0",
-        "9.25"
+        "52mm",
+        "60mm"
       ],
       "galeria": [
-        "./prod-imgs/shapes/shape.png",
-        "./prod-imgs/shapes/truck.jpeg",
-        "./prod-imgs/shapes/rodas.jpg"
+        "./prod-imgs/rodas.jpg",
+        "./prod-imgs/rodas2.jpg",
+        "./prod-imgs/rodas3.jpg"
       ]
     },
     {
       "id": 8,
-      "img": "./prod-imgs/shapes/rodas.jpg",
-      "nome": "Rodinhas Exemplo",
+      "img": "./prod-imgs/rodas2.jpg",
+      "nome": "Rodinha Black Sheep",
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modquidem. Unde accusantium, illo, officiis necessitatibus incidunt magnam cumque culpa perspiciatis veritatis assumenda debitis ea eos molestiae explicabo iusto sint sequi.",
       "valor": "R$100,00",
       "tam": [
-        "8.0",
-        "9.0",
-        "9.25"
+        "48mm",
+        "52mm",
+        "60mm"
       ],
       "galeria": [
-        "./prod-imgs/shapes/shape.png",
-        "./prod-imgs/shapes/truck.jpeg",
-        "./prod-imgs/shapes/rodas.jpg"
+        "./prod-imgs/rodas2.jpg",
+        "./prod-imgs/rodas.jpg",
+        "./prod-imgs/rodas3.jpg"
       ]
     },
     {
       "id": 9,
-      "img": "./prod-imgs/shapes/rodas.jpg",
-      "nome": "Rodinhas Exemplo",
+      "img": "./prod-imgs/rodas3.jpg",
+      "nome": "Rodinha Black Sheep",
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modquidem. Unde accusantium, illo, officiis necessitatibus incidunt magnam cumque culpa perspiciatis veritatis assumenda debitis ea eos molestiae explicabo iusto sint sequi.",
       "valor": "R$100,00",
       "tam": [
-        "8.0",
-        "9.0",
-        "9.25"
+        "48mm",
+        "52mm",
+        "60mm"
       ],
       "galeria": [
-        "./prod-imgs/shapes/shape.png",
-        "./prod-imgs/shapes/truck.jpeg",
-        "./prod-imgs/shapes/rodas.jpg"
+        "./prod-imgs/rodas3.jpg",
+        "./prod-imgs/rodas2.jpg",
+        "./prod-imgs/rodas.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "img": "./prod-imgs/capacete.png",
+      "nome": "Capacete Preto",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Modquidem. Unde accusantium, illo, officiis necessitatibus incidunt magnam cumque culpa perspiciatis veritatis assumenda debitis ea eos molestiae explicabo iusto sint sequi.",
+      "valor": "R$100,00",
+      "tam": [
+        "Unico"
+      ],
+      "galeria": [
+        "./prod-imgs/capacete.png",
+        "./prod-imgs/capacete2.png"
       ]
     }
   ]
