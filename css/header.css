@@ -1,0 +1,21 @@
+header {
+  background-image: url(../assets/header-background.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+header img {
+  margin: 20px;
+}
+
+hr{
+  width: 30%;
+  margin: 20px auto;
+}
+
+.titulo{
+  text-align: center;
+  margin-top: 40px;
+}

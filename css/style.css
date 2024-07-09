@@ -1,24 +1,4 @@
-header {
-  background-image: url(./assets/header-background.jpg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-}
-
-header img {
-  margin: 20px;
-}
-
-hr{
-  width: 30%;
-  margin: 20px auto;
-}
-
-.titulo{
-  text-align: center;
-  margin-top: 40px;
-}
 
 /* Produto */
 .produtos {
@@ -57,44 +37,6 @@ hr{
 .item-valor {
   font-size: 12px;
 }
-
-
-
-
-
-/* Footer */
-
-footer {
-  background-color: #000;
-  color: #fff;
-  display: flex;
-  padding: 50px;
-  justify-content: space-around;
-  align-items: center;
-}
-.insta-icon img {
-  width: 50px;
-  filter: invert(1);
-  margin-bottom: 10px;
-}
-
-.contatos-title{
-  margin-bottom: 15px;
-}
-.contatos{
-  list-style: none;
-  text-decoration: none;
-}
-.contatos li {
-  margin-top: 5px;
-}
-
-.contatos img {
-  width: 15px;
-  filter: invert(1);
-  margin-right: 10px;
-}
-
 
 
 /* Ajustes de tamanho de tela */
