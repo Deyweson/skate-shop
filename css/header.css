@@ -9,6 +9,11 @@ header {
 header img {
   margin: 20px;
 }
+header h1 {
+  font-size: 100px;
+  color: white;
+  padding: 40px;
+}
 
 hr{
   width: 30%;
